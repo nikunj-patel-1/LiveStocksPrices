@@ -49,7 +49,7 @@ function App() {
             <option value="SE17">Suzlon Energy Ltd.</option>
             <option value="SBI">State Bank of India</option>
           </select>
-          {currentComp && <button onClick={() => getStocksData(currentComp)} className='btn'>Refresh</button>}
+          
         </div>
         <br />
         <table border="1" width="500">
