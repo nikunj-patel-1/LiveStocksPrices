@@ -61,7 +61,7 @@ function App() {
 
             return (<tr>
               <td>{stock.price}</td>
-              <td>{stock.time}</td>
+              <td>{new Date(stock.time).toLocaleString()}</td>
             </tr>)
           })
 
